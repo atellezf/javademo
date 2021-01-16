@@ -10,6 +10,7 @@ public class Programa {
 		System.out.print("Escribe tu nombre: ");
 		String nombre = scan.nextLine();
 		m.imprimir(nombre);
+		scan.close();
 	}
 	
 }
